@@ -1,0 +1,15 @@
+
+# log_method: 0, log input mode; 1, file input mode
+LOG_METHOD=0
+
+# log_level [0 - 7] 
+# LOG_OFF-0, LOG_FATAL-1, LOG-ERROR-2, LOG_WARN-3, LOG_INFO-4, LOG_DEBUG-5, LOG_TRACE-6, LOG_ALL-7
+lOG_LEVEL=5
+
+# MAX_FILE_SIZE 5*1024*1024
+MAX_FILE_SIZE=5242880
+
+# if file input mode, log write into LOG_FILE_PATH 
+LOG_FILE_PATH=config/message.log
+
+# SSL configure
